@@ -1,0 +1,76 @@
+body {
+  background-color: #10375c;
+  text-align: center;
+}
+
+h1 {
+  color: #f4f6ff;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 0;
+}
+
+.game-over {
+  background-color: red;
+}
+
+.monkey {
+  width: 60%;
+  height: 60%;
+}
+
+.texts {
+  color: #f4f6ff;
+  font-size: .8rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.level-title {
+  margin-top: 50px;
+  padding-top: 15px;
+  font-size: 2rem;
+}
+
+.blink {
+  color: #10375c;
+}
+
+.container {
+  display: inline-block;
+}
+
+/* Container tiene que cambiar en game over a la imagen gif */
+.row {
+  display: flex;
+}
+
+.btn {
+  /* text-align: center; */
+  margin: 35px;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* add listener to the buttons */
+.pressed {
+  opacity: 0.3;
+  border-radius: 6px;
+}
+
+/* resize images */
+.btn img {
+  width: 90%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding-top: 50px;
+}
